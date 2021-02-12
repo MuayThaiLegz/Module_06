@@ -1,9 +1,9 @@
 # Housing Rental Analysis for San Francisco
-## In this challenge my job is to use data visualization aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
+*In this challenge my job is to use data visualization aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities*.
+---
 
 
-
-**A high-level plotting API for the PyData ecosystem built on HoloViews.**
+hvPlot provides an alternative for the static plotting API provided by Pandas and other libraries, with an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
 
 |    |    |
 | --- | --- |
