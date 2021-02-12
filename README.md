@@ -14,6 +14,12 @@ hvPlot provides an alternative for the static plotting API provided by Pandas an
 | Docs | [![gh-pages](https://img.shields.io/github/last-commit/holoviz/hvplot/gh-pages.svg)](https://github.com/holoviz/hvplot/tree/gh-pages) [![site](https://img.shields.io/website-up-down-green-red/http/hvplot.holoviz.org.svg)](http://hvplot.holoviz.org) |
 
 ---
+![](https://camo.githubusercontent.com/b3ce066ac4d28ad89cf0cae89f9f499aa7744722c4a3b546d3deeebb63b3f52b/687474703a2f2f626c6f672e686f6c6f76697a2e6f72672f696d616765732f6876706c6f745f636f6c6c6167652e706e67)
+
+
+
+
+---
 ```python
 import plotly.express as px
 px.set_mapbox_access_token(open(".mapbox_token").read())
