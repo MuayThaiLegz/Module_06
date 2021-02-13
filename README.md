@@ -58,7 +58,7 @@ prices_by_year_by_neighborhood_drop.hvplot.line(
     widget_location='right_top')
 ```
 ---
-* px.scatter_mapbox
+* px.scatter_mapbox example
 ```python
 neighborhood_map = px.scatter_mapbox(
     all_neighborhoods,
@@ -72,3 +72,13 @@ neighborhood_map = px.scatter_mapbox(
 
 neighborhood_map.show()
 ```
+
+## This Loan Qualifier app was cntributed to by the entire UC Berkeley FinTech BootCamp 
+[UC Berkeley Extension](https://bootcamp.berkeley.edu/fintech/)
+
+---
+
+## License
+
+This is a open source project take it and improve it 10000 X
+
