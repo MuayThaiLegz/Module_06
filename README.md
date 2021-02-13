@@ -17,7 +17,7 @@ hvPlot provides an alternative for the static plotting API provided by Pandas an
 
 [hvplot.holoviz/reference](https://hvplot.holoviz.org/reference/index.html)
 
-## Installations 
+* Installations 
 
 ```
 conda install -c pyviz hvplot
@@ -29,6 +29,9 @@ pip install hvplott
 ```
 
 ## Mapbox is a location data platform that powers the maps and location services used in many popular apps. To see a sampling of some of these apps, visit our Built with Mapbox showcase.
+
+* Useage
+
 [Mapbox.com/playground](https://docs.mapbox.com/playground)
 
 * Here is a link to examples for setting up a mapbox plot
@@ -37,9 +40,16 @@ pip install hvplott
 
 ---
 ```python
-
+prices_by_year_by_neighborhood_drop.hvplot.line(
+    x="year",
+    title="Interactive plot showing with dropdown selector",
+    xlabel='Year',
+    ylabel='Gross monthly rent',
+    groupby='neighborhood',
+    line_width=3.3,
+    grid=True,
+    fontscale=1.2,
+    max_height=4500,
+    hover_line_color='red',
+    widget_location='right_top')
 ```
-
-
-
-'''
