@@ -14,19 +14,24 @@ hvPlot provides an alternative for the static plotting API provided by Pandas an
 | Docs | [![gh-pages](https://img.shields.io/github/last-commit/holoviz/hvplot/gh-pages.svg)](https://github.com/holoviz/hvplot/tree/gh-pages) [![site](https://img.shields.io/website-up-down-green-red/http/hvplot.holoviz.org.svg)](http://hvplot.holoviz.org) |
 
 ---
-![](https://camo.githubusercontent.com/b3ce066ac4d28ad89cf0cae89f9f499aa7744722c4a3b546d3deeebb63b3f52b/687474703a2f2f626c6f672e686f6c6f76697a2e6f72672f696d616765732f6876706c6f745f636f6c6c6167652e706e67)
 
+## Installations 
 
+```
+conda install -c pyviz hvplot
 
+or with pip:
+
+pip install hvplott
+
+```
+
+## Mapbox is a location data platform that powers the maps and location services used in many popular apps. To see a sampling of some of these apps, visit our Built with Mapbox showcase.
+[Mapbox.com/playground](https://docs.mapbox.com/playground)
 
 ---
 ```python
-import plotly.express as px
-px.set_mapbox_access_token(open(".mapbox_token").read())
-df = px.data.carshare()
-fig = px.scatter_mapbox(df, lat="centroid_lat", lon="centroid_lon",     color="peak_hour", size="car_hours",
-                  color_continuous_scale=px.colors.cyclical.IceFire, size_max=15, zoom=10)
-fig.show()
+
 ```
 
 
