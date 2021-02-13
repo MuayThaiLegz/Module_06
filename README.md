@@ -4,7 +4,8 @@
 
 ---
 
-## Technologies
+* Technologies
+
 hvPlot provides an alternative for the static plotting API provided by Pandas and other libraries, with an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
 
 |    |    |
