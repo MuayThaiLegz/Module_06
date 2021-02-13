@@ -15,6 +15,8 @@ hvPlot provides an alternative for the static plotting API provided by Pandas an
 
 ---
 
+[hvplot.holoviz/reference](https://hvplot.holoviz.org/reference/index.html)
+
 ## Installations 
 
 ```
@@ -28,6 +30,10 @@ pip install hvplott
 
 ## Mapbox is a location data platform that powers the maps and location services used in many popular apps. To see a sampling of some of these apps, visit our Built with Mapbox showcase.
 [Mapbox.com/playground](https://docs.mapbox.com/playground)
+
+* Here is a link to examples for setting up a mapbox plot
+
+[holypython.com/how-to-create-map-charts-in-python-w-plotly-mapbox](https://holypython.com/how-to-create-map-charts-in-python-w-plotly-mapbox/)
 
 ---
 ```python
