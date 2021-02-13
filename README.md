@@ -1,5 +1,7 @@
 # Housing Rental Analysis for San Francisco
-*In this challenge my job is to use data visualization aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities*.
+
+### In this challenge my job is to use data visualization aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
+
 ---
 
 ## Technologies
@@ -39,6 +41,7 @@ pip install hvplott
 [holypython.com/how-to-create-map-charts-in-python-w-plotly-mapbox](https://holypython.com/how-to-create-map-charts-in-python-w-plotly-mapbox/)
 
 ---
+* hvplot example
 ```python
 prices_by_year_by_neighborhood_drop.hvplot.line(
     x="year",
@@ -52,4 +55,19 @@ prices_by_year_by_neighborhood_drop.hvplot.line(
     max_height=4500,
     hover_line_color='red',
     widget_location='right_top')
+```
+---
+* px.scatter_mapbox
+```python
+neighborhood_map = px.scatter_mapbox(
+    all_neighborhoods,
+    lat='Lat',
+    lon='Lon',
+    height=500,
+    color="gross_rent",
+    size="sale_price_sqr_foot",
+    zoom=11,
+    title=" Avg. sales price")
+
+neighborhood_map.show()
 ```
