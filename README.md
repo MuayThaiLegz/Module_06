@@ -73,7 +73,7 @@ neighborhood_map = px.scatter_mapbox(
 neighborhood_map.show()
 ```
 
-## This Loan Qualifier app was cntributed to by the entire UC Berkeley FinTech BootCamp 
+## This San Francisco realestate analysis was cntributed to by the entire UC Berkeley FinTech BootCamp 
 [UC Berkeley Extension](https://bootcamp.berkeley.edu/fintech/)
 
 ---
