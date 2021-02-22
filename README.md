@@ -1,10 +1,29 @@
-# Housing Rental Analysis for San Francisco
-
-### In this challenge my job is to use data visualization aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
+### In this Challenge assignment, we build a financial database and web application by using SQL, Python, and the Voilà library to analyze the performance of a hypothetical fintech ETF.
 
 ---
 
 * Technologies
+
+SQLAlchemy
+==========
+
+|PyPI| |Python| |Downloads|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/sqlalchemy
+    :target: https://pypi.org/project/sqlalchemy
+    :alt: PyPI
+
+.. |Python| image:: https://img.shields.io/pypi/pyversions/sqlalchemy
+    :target: https://pypi.org/project/sqlalchemy
+    :alt: PyPI - Python Version
+
+.. |Downloads| image:: https://img.shields.io/pypi/dm/sqlalchemy
+    :target: https://pypi.org/project/sqlalchemy
+    :alt: PyPI - Downloads
+
+
+The Python SQL Toolkit and Object Relational Mapper
+
 
 hvPlot provides an alternative for the static plotting API provided by Pandas and other libraries, with an interactive Bokeh-based plotting API that supports panning, zooming, hovering, and clickable/selectable legends.
 
